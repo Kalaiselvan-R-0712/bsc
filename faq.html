@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- begin::Meta Basic -->
+<meta charset="utf-8"/>
+<meta content="#b6554f" name="theme-color"/>
+<meta content="index, follow" name="robots"/>
+<meta content="LayoutDrop" name="author"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="pedicure, Beauty &amp; Skincare Clinic, hair salon, luxury spa, barber, beauty blog, cosmetics shop, skincare, beauty shop, multipurpose, fashion" name="keywords"/>
+<meta content="Stackly Beauty &amp; Skincare Clinics, hair salons, barbers, skincare, pedicure, cosmetics shops, and beauty blogs. Perfect for showcasing beauty and wellness services online." name="description"/>
+<!-- end::Meta Basic -->
+<!-- begin::Meta Social -->
+<meta content="https://Stackly.layoutdrop.com/demo/" property="og:url"/>
+<meta content="Stackly | Beauty &amp; Skincare Clinic" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="en_us" property="og:locale"/>
+<meta content="Stackly | Beauty &amp; Skincare Clinic" property="og:title"/>
+<meta content="Stackly Beauty &amp; Skincare Clinics, hair salons, barbers, skincare, pedicure, cosmetics shops, and beauty blogs. Perfect for showcasing beauty and wellness services online." property="og:description"/>
+<meta content="https://Stackly.layoutdrop.com/demo/preview.webp" property="og:image"/>
+<!-- end::Meta Social -->
+<!-- begin::Meta Twitter -->
+<meta content="summary" name="twitter:card"/>
+<meta content="https://Stackly.layoutdrop.com/demo/" name="twitter:url"/>
+<meta content="@layoutdrop" name="twitter:creator"/>
+<meta content="Stackly | Beauty &amp; Skincare Clinic" name="twitter:title"/>
+<meta content="Stackly Beauty &amp; Skincare Clinics, hair salons, barbers, skincare, pedicure, cosmetics shops, and beauty blogs. Perfect for showcasing beauty and wellness services online." name="twitter:description"/>
+<!-- end::Meta Twitter -->
+<!-- begin::Canonical URL -->
+<link href="https://Stackly.layoutdrop.com/demo/index.html" rel="canonical"/>
+<!-- end::Canonical URL -->
+<!-- begin::Favicons Icons -->
+<link href="assets/images/favicon.webp" rel="icon" type="image/png"/>
+<link href="assets/images/apple-touch-icon.webp" rel="apple-touch-icon" sizes="180x180"/>
+<!-- end::Favicons Icons -->
+<!-- begin::Page Title -->
+<title>Stackly | Beauty &amp; Skincare Clinic</title>
+<!-- end::Page Title -->
+<!-- begin::Mobile Specific -->
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- end::Mobile Specific -->
+<!-- begin::Plugins All CSS -->
+<link href="assets/libs/themify/themify-icons.css" rel="stylesheet"/>
+<link href="assets/libs/fontawesome/css/all.min.css" rel="stylesheet"/>
+<link href="assets/libs/line-awesome/css/line-awesome.css" rel="stylesheet"/>
+<link href="assets/libs/animate/animate.css" rel="stylesheet"/>
+<link href="assets/libs/scroll/scrollbar.css" rel="stylesheet"/>
+<link href="assets/libs/jquery-nice-select/css/nice-select.css" rel="stylesheet"/>
+<link href="assets/libs/magnific-popup/magnific-popup.css" rel="stylesheet"/>
+<link href="assets/libs/swiper/swiper.min.css" rel="stylesheet"/>
+<!-- end::Plugins All CSS -->
+<!-- begin::Template Stylesheet -->
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<!-- end::Template Stylesheet -->
+<!-- AOS scroll animations -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="assets/css/stackly-hover-effects.css" rel="stylesheet"/>
+<style id="stackly-exact-auth-preloader">
+#preloader{
+  position:fixed;inset:0;z-index:10000;display:grid;place-items:center;overflow:hidden;
+  background:
+    radial-gradient(circle at 50% 42%,rgba(22,200,242,.16),transparent 18%),
+    radial-gradient(circle at 18% 78%,rgba(70,220,165,.10),transparent 25%),
+    radial-gradient(circle at 84% 20%,rgba(245,184,61,.08),transparent 24%),
+    linear-gradient(145deg,#010608 0%,#04161a 55%,#02090b 100%);
+  transition:opacity .75s ease,visibility .75s ease;
+}
+#preloader:before,#preloader:after{
+  content:"";position:absolute;border-radius:50%;pointer-events:none;
+}
+#preloader:before{
+  width:min(720px,110vw);height:min(720px,110vw);
+  border:1px solid rgba(22,200,242,.08);
+  box-shadow:0 0 140px rgba(22,200,242,.05),inset 0 0 100px rgba(22,200,242,.025);
+  animation:financeOrbit 15s linear infinite;
+}
+#preloader:after{
+  width:430px;height:430px;border:1px dashed rgba(245,184,61,.11);
+  animation:financeOrbitReverse 10s linear infinite;
+}
+.finance-loader-grid{
+  position:absolute;inset:0;opacity:.15;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:46px 46px;
+  mask-image:linear-gradient(to bottom,black,transparent 88%);
+}
+.finance-orbit{
+  position:absolute;border:1px solid rgba(22,200,242,.12);border-radius:50%;
+  transform:rotateX(66deg);
+}
+.finance-orbit-one{width:390px;height:150px;animation:financeOrbit 4.8s linear infinite}
+.finance-orbit-two{width:310px;height:120px;border-color:rgba(98,239,112,.13);transform:rotateX(66deg) rotateZ(55deg);animation:financeOrbitReverse 5.7s linear infinite}
+.finance-orbit-three{width:500px;height:190px;border-color:rgba(245,184,61,.08);transform:rotateX(66deg) rotateZ(-45deg);animation:financeOrbit 7s linear infinite}
+.finance-loader-core{
+  position:relative;width:270px;height:166px;display:grid;place-items:center;z-index:2;
+  border-radius:83px;
+  background:radial-gradient(ellipse at center,#0b2b30,#031114 68%,#010708);
+  border:1px solid rgba(22,200,242,.32);
+  box-shadow:0 0 70px rgba(22,200,242,.14),inset 0 0 42px rgba(22,200,242,.08);
+  animation:financeCore 2.5s ease-in-out infinite;
+}
+.finance-logo-ring{
+  position:absolute;inset:7px;border-radius:50%;
+  border:2px solid transparent;border-top-color:#16c8f2;border-right-color:#62ef70;
+  animation:spinFinance 1.15s linear infinite;
+}
+.finance-logo-shell{
+  width:236px;height:100px;border-radius:20px;overflow:visible;display:grid;place-items:center;
+  background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.10);
+  box-shadow:inset 0 0 28px rgba(0,0,0,.65);
+  padding:8px 12px;
+}
+.finance-logo-shell img{
+  width:214px;max-width:100%;height:auto;object-fit:contain;
+  filter:drop-shadow(0 0 12px rgba(22,200,242,.3));
+  animation:financeLogoPulse 2.2s ease-in-out infinite;
+}
+.finance-spark{
+  position:absolute;width:5px;height:5px;border-radius:50%;
+  background:#16c8f2;box-shadow:0 0 12px #16c8f2;
+}
+.impact-chart{
+  position:absolute;right:calc(50% - 250px);top:calc(50% - 125px);
+  width:105px;height:72px;display:flex;align-items:flex-end;gap:5px;
+  transform:skewY(-5deg);z-index:3;animation:chartFloat 2s ease-in-out infinite;
+}
+.impact-chart span{
+  flex:1;border-radius:4px 4px 0 0;
+  background:linear-gradient(180deg,#62ef70,#16c8f2);
+  box-shadow:0 0 10px rgba(22,200,242,.22);
+  transform-origin:bottom;animation:chartBars 1.4s ease-in-out infinite alternate;
+}
+.impact-chart span:nth-child(2){animation-delay:.12s}
+.impact-chart span:nth-child(3){animation-delay:.24s}
+.impact-chart span:nth-child(4){animation-delay:.36s}
+.impact-chart span:nth-child(5){animation-delay:.48s}
+.impact-chart b{
+  position:absolute;left:5px;bottom:7px;width:95px;height:2px;
+  background:linear-gradient(90deg,transparent,#16c8f2,#62ef70);
+  transform:rotate(-27deg);transform-origin:right center;
+  box-shadow:0 0 10px rgba(22,200,242,.6);
+}
+.impact-heart{
+  position:absolute;left:calc(50% - 245px);top:calc(50% + 45px);
+  width:48px;height:48px;border-radius:50%;display:grid;place-items:center;
+  color:#061012;font:900 24px "Space Grotesk";
+  background:linear-gradient(145deg,#ffeaa2,#d7a72d);
+  border:2px solid #fff1af;box-shadow:0 0 24px rgba(245,184,61,.22);
+  animation:coinFinance 2.3s ease-in-out infinite;z-index:3;
+}
+.finance-loader-copy{
+  position:absolute;top:calc(50% + 125px);left:0;right:0;
+  display:flex;flex-direction:column;align-items:center;text-align:center;z-index:3;
+}
+.finance-loader-copy strong{
+  font:900 27px "Space Grotesk";letter-spacing:7px;
+  background:linear-gradient(90deg,#fff,#16c8f2,#62ef70,#fff);
+  background-size:220% auto;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:brandShine 2.3s linear infinite;
+}
+.finance-loader-copy span{margin-top:6px;color:#b9ced0;font:700 10px "Space Grotesk";letter-spacing:3px}
+.finance-loader-copy span i{color:#62ef70;font-style:normal;margin:0 3px}
+.finance-loader-copy small{margin-top:10px;color:#667f83;font:700 8px "Space Grotesk";letter-spacing:1.7px;text-transform:uppercase}
+.finance-progress{
+  position:absolute;bottom:39px;width:min(330px,68vw);height:3px;
+  background:rgba(255,255,255,.07);border-radius:99px;overflow:hidden;z-index:3;
+}
+.finance-progress span{
+  display:block;width:0;height:100%;
+  background:linear-gradient(90deg,#087fc3,#16c8f2,#62ef70);
+  box-shadow:0 0 13px rgba(22,200,242,.7);transition:width .12s linear;
+}
+.finance-percent{
+  position:absolute;bottom:20px;color:#5d777a;font:700 8px "Space Grotesk";letter-spacing:2px;z-index:3;
+}
+@keyframes spinFinance{to{transform:rotate(360deg)}}
+@keyframes financeOrbit{to{transform:rotate(360deg)}}
+@keyframes financeOrbitReverse{to{transform:rotate(-360deg)}}
+@keyframes financeCore{50%{transform:translateY(-6px) scale(1.025)}}
+@keyframes financeLogoPulse{50%{transform:scale(1.035);filter:drop-shadow(0 0 18px rgba(22,200,242,.45))}}
+@keyframes sparkFloat{50%{transform:scale(1.7);opacity:.5}}
+@keyframes chartFloat{50%{transform:skewY(-5deg) translate(4px,-7px)}}
+@keyframes chartBars{to{transform:scaleY(.72)}}
+@keyframes coinFinance{50%{transform:translateY(-8px) rotate(-7deg)}}
+@keyframes brandShine{to{background-position:220% center}}
+body.loading{overflow-x:hidden;overflow-y:scroll}
+@keyframes gridDrift{to{background-position:70px 70px}}
+@media (max-width:700px){
+.finance-loader-core{width:min(286px,88vw);height:148px;border-radius:74px}
+.finance-logo-ring{inset:6px}
+.finance-logo-shell{width:min(246px,78vw);height:92px;border-radius:18px;padding:7px 10px}
+.finance-logo-shell img{width:min(222px,70vw);max-width:100%}
+.impact-chart{right:calc(50% - 210px);top:calc(50% - 110px);width:78px;height:58px}
+.impact-heart{left:calc(50% - 205px);top:calc(50% + 45px);width:42px;height:42px;font-size:20px}
+.finance-loader-copy{top:calc(50% + 116px)}
+.finance-loader-copy strong{font-size:22px;letter-spacing:5px}
+.finance-loader-copy span{font-size:8px;letter-spacing:2px}
+.finance-loader-copy small{font-size:7px;letter-spacing:1.1px}
+}
+@media (prefers-reduced-motion:reduce){
+#preloader *{animation:none!important}
+}
+.finance-loader-core{background:radial-gradient(ellipse at center,#24594c,#102f2a 68%,#0a201d) !important;border-color:rgba(255,255,255,.25) !important;box-shadow:0 0 70px rgba(66,155,120,.18),inset 0 0 42px rgba(255,255,255,.06) !important;}
+.finance-logo-ring{border-top-color:#f2c66d !important;border-right-color:#8ad2ad !important;}
+.finance-logo-shell{background:rgba(255,255,255,.95) !important;border-color:rgba(255,255,255,.3) !important;box-shadow:0 8px 28px rgba(0,0,0,.15) !important;}
+.finance-logo-shell img{filter:none !important;}
+.finance-loader-copy strong{background:linear-gradient(90deg,#fff,#f2c66d,#8ad2ad,#fff) !important;background-size:220% auto !important;}
+.finance-loader-copy span i{color:#f2c66d !important;}
+.finance-loader-grid{opacity:.08 !important;}
+#preloader{position:fixed!important;inset:0!important;z-index:10000!important;display:grid!important;place-items:center!important;overflow:hidden!important;background:linear-gradient(145deg,#fff 0%,#fbf4ff 54%,#eafcff 100%)!important;opacity:1;visibility:visible;transition:opacity .45s ease,visibility .45s ease}
+#preloader:before,#preloader:after{content:none!important;display:none!important}
+.finance-loader-grid,.finance-orbit,.finance-loader-core,.finance-logo-ring,.finance-spark{display:none!important}
+#preloader:after{display:none!important}
+#preloader .nonprofit-preloader-mark{display:block!important;width:170px;height:100px;background:url("assets/images/logo.webp") center/contain no-repeat!important;animation:nonprofitLoaderPulse 1.5s ease-in-out infinite alternate}
+@keyframes nonprofitLoaderPulse{from{transform:scale(.97);opacity:.8}to{transform:scale(1);opacity:1}}
+body.loading{overflow-x:hidden!important}
+#preloader{background:linear-gradient(145deg,#ffffff 0%,#fbf6ff 55%,#effcff 100%)!important;color:#382943!important}
+#preloader:before{border-color:rgba(141,92,165,.12)!important;box-shadow:0 0 100px rgba(141,92,165,.05),inset 0 0 70px rgba(85,216,239,.06)!important}
+#preloader:after{background:radial-gradient(circle,rgba(85,216,239,.10),transparent 68%)!important}
+.finance-loader-grid,.finance-orbit,.finance-spark,.impact-chart,.impact-heart,.finance-percent{display:none!important}
+.finance-loader-core{filter:none!important}
+.finance-logo-ring{border-color:rgba(141,92,165,.25)!important;box-shadow:0 0 0 8px rgba(141,92,165,.04)!important}
+.finance-logo-shell{background:#fff!important;border:1px solid rgba(141,92,165,.16)!important;box-shadow:0 12px 36px rgba(72,45,89,.10)!important;border-radius:22px!important}
+.finance-logo-shell img{object-fit:contain!important;max-width:180px!important;max-height:80px!important}
+.finance-loader-copy strong{background:linear-gradient(90deg,#8d5ca5,#55d8ef,#b68bc9)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;text-shadow:none!important}
+.finance-loader-copy span{color:#8d5ca5!important}
+.finance-loader-copy span i{color:#55d8ef!important}
+.finance-loader-copy small{color:#75677d!important}
+.finance-progress{background:#eee5f3!important}
+.finance-progress span{background:linear-gradient(90deg,#8d5ca5,#55d8ef,#b68bc9)!important;box-shadow:none!important}
+/* Exact Stackly Beauty & Skincare Clinic auth preloader styles */
+body, body.loading, body.page-ready { display:block !important; width:100% !important; height:auto !important; min-height:0 !important; margin:0 !important; padding:0 !important; overflow-x:hidden !important; overflow-y:visible !important; }
+/* Exact Stackly Beauty & Skincare Clinic auth preloader styles */
+body,
+body.loading,
+body.page-ready {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+/* Exact Stackly Beauty & Skincare Clinic auth preloader styles */
+#preloader{background:radial-gradient(circle at 50% 40%,rgba(182,85,79,.12),transparent 24%),linear-gradient(145deg,#fff8ef 0%,#f3e4d8 60%,#fffaf5 100%)!important}
+#preloader:before{border-color:rgba(182,85,79,.14)!important;box-shadow:0 0 120px rgba(182,85,79,.07)!important}
+#preloader:after{border-color:rgba(217,139,128,.20)!important}
+.finance-loader-core{background:radial-gradient(ellipse at center,#fffaf5,#f1e1d7 68%,#ead7cc)!important;border-color:rgba(182,85,79,.28)!important;box-shadow:0 0 60px rgba(182,85,79,.12),inset 0 0 35px rgba(182,85,79,.05)!important}
+.finance-logo-ring{border-top-color:#b6554f!important;border-right-color:#e3a49a!important}
+.finance-logo-shell{background:rgba(255,255,255,.78)!important;border-color:rgba(182,85,79,.15)!important;box-shadow:inset 0 0 20px rgba(182,85,79,.04)!important}
+.finance-logo-shell img{filter:none!important}
+.finance-spark,.spark-1,.spark-4{background:#b6554f!important;box-shadow:0 0 12px rgba(182,85,79,.5)!important}
+.impact-chart span{background:linear-gradient(180deg,#d98b80,#b6554f)!important;box-shadow:0 0 10px rgba(182,85,79,.18)!important}
+.impact-chart b{background:linear-gradient(90deg,transparent,#d98b80,#b6554f)!important}
+.impact-heart{background:linear-gradient(145deg,#f7d7c9,#d98b80)!important;color:#71332e!important;border-color:#fff0e8!important;box-shadow:0 0 24px rgba(182,85,79,.18)!important}
+.finance-loader-copy strong{background:linear-gradient(90deg,#71332e,#b6554f,#d98b80,#71332e)!important;background-size:220% auto!important;-webkit-background-clip:text!important;background-clip:text!important}
+.finance-loader-copy span{color:#8d6b62!important}
+.finance-loader-copy span i{color:#b6554f!important}
+.finance-loader-copy small,.finance-percent{color:#9a8078!important}
+.finance-progress{background:rgba(111,59,52,.10)!important}
+.finance-progress span{background:linear-gradient(90deg,#b6554f,#d98b80,#e9b8a9)!important;box-shadow:0 0 12px rgba(182,85,79,.35)!important}
+</style>
+
+<style id="stackly-preloader-hide-page-until-ready">
+/* Keep the entire page shell hidden until the full-screen preloader finishes. */
+body.loading > .page-wraper{
+  visibility:hidden!important;
+  opacity:0!important;
+  pointer-events:none!important;
+}
+body.loading #preloader{
+  visibility:visible!important;
+  opacity:1!important;
+  pointer-events:auto!important;
+  z-index:2147483000!important;
+}
+body.page-ready > .page-wraper{
+  visibility:visible;
+  opacity:1;
+  pointer-events:auto;
+}
+</style>
+
+<style id="stackly-mobile-inner-hero-fix">
+/* Inner-page hero titles must sit below the fixed mobile header. */
+@media (max-width: 991.98px) {
+  main.page-content .page-banner,
+  main.page-content .page-banner.page-banner-sm {
+    box-sizing:border-box!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    min-height:260px!important;
+    height:auto!important;
+    padding:55px 0 42px!important;
+    background-position:center center!important;
+    background-size:cover!important;
+  }
+  main.page-content .page-banner > .container {
+    display:flex!important;
+    flex-direction:column!important;
+    justify-content:center!important;
+    align-items:center!important;
+    height:auto!important;
+    min-height:150px!important;
+    width:100%!important;
+    padding:0 18px!important;
+  }
+  main.page-content .page-banner .page-banner-entry {
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    justify-content:center!important;
+    text-align:center!important;
+    width:100%!important;
+    min-width:0!important;
+  }
+  main.page-content .page-banner .page-banner-entry h1 {
+    font-size:clamp(29px,7vw,42px)!important;
+    line-height:1.2!important;
+    margin:0 0 18px!important;
+    padding:0!important;
+    position:relative!important;
+    top:auto!important;
+    transform:none!important;
+    max-width:100%!important;
+  }
+  main.page-content .page-banner .breadcrumb-row {
+    display:flex!important;
+    justify-content:center!important;
+    align-items:center!important;
+    position:static!important;
+    margin:0 auto!important;
+    max-width:100%!important;
+  }
+  main.page-content .page-banner .breadcrumb-row ul {
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    flex-wrap:wrap!important;
+    max-width:100%!important;
+    margin:0!important;
+  }
+}
+@media (max-width:575.98px){
+  main.page-content .page-banner,
+  main.page-content .page-banner.page-banner-sm {min-height:235px!important;padding:42px 0 34px!important;}
+}
+</style>
+
+<style id="stackly-mobile-hero-title-background-layer">
+/* Give inner-page hero titles a soft readable layer above busy photographs. */
+@media (max-width: 991.98px) {
+  main.page-content .page-banner .page-banner-entry h1 {
+    display: table!important;
+    position: relative!important;
+    isolation: isolate!important;
+    width: fit-content!important;
+    max-width: 100%!important;
+    margin: 0 auto 18px!important;
+    padding: 8px 18px 10px!important;
+    border-radius: 12px!important;
+    color: #4b1715!important;
+    text-shadow: 0 1px 0 rgba(255,255,255,.35)!important;
+    z-index: 1!important;
+  }
+  main.page-content .page-banner .page-banner-entry h1::before {
+    content: ""!important;
+    position: absolute!important;
+    inset: 0!important;
+    z-index: -1!important;
+    border-radius: inherit!important;
+    background: rgba(255,248,239,.84)!important;
+    border: 1px solid rgba(255,255,255,.58)!important;
+    box-shadow: 0 5px 18px rgba(70,35,29,.10)!important;
+    -webkit-backdrop-filter: blur(7px)!important;
+    backdrop-filter: blur(7px)!important;
+    pointer-events: none!important;
+  }
+}
+@media (max-width: 575.98px) {
+  main.page-content .page-banner .page-banner-entry h1 {
+    padding: 7px 16px 9px!important;
+    margin-bottom: 16px!important;
+    font-size: clamp(28px,7vw,38px)!important;
+    line-height: 1.18!important;
+  }
+}
+</style>
+
+</head>
+<body data-ld-theme="orangy-red" class="loading">
+<div aria-label="Loading Stackly Beauty &amp; Skincare Clinic" id="preloader">
+<div aria-hidden="true" class="nonprofit-preloader-mark"></div>
+<div class="finance-loader-grid"></div>
+<div class="finance-orbit finance-orbit-one"></div>
+<div class="finance-orbit finance-orbit-two"></div>
+<div class="finance-orbit finance-orbit-three"></div>
+<div class="finance-loader-core">
+<div class="finance-logo-ring"></div>
+<div class="finance-logo-shell">
+<img alt="Stackly Beauty &amp; Skincare Clinic" src="assets/images/logo.webp"/>
+</div>
+<div class="finance-spark spark-1"></div>
+<div class="finance-spark spark-2"></div>
+<div class="finance-spark spark-3"></div>
+<div class="finance-spark spark-4"></div>
+</div>
+<div aria-hidden="true" class="impact-chart">
+<span style="height:25%"></span><span style="height:42%"></span>
+<span style="height:57%"></span><span style="height:76%"></span>
+<span style="height:100%"></span><b></b>
+</div>
+<div aria-hidden="true" class="impact-heart"><i aria-hidden="true" class="fa-solid fa-heart"></i></div>
+<div class="finance-loader-copy">
+<strong>STACKLY</strong>
+<span>BEAUTY <i>&amp;</i> SKINCARE CLINIC</span>
+<small>Care • Confidence • Radiance</small>
+</div>
+<div class="finance-progress"><span></span></div>
+<div class="finance-percent">0%</div>
+</div>
+
+<div class="page-wraper">
+<!-- begin::Header -->
+<header class="header clearfix rs-nav">
+<div class="top-bar">
+<div class="container">
+<div class="top-inner">
+<div class="topbar-left">
+<ul>
+<li><a href="tel:+9170107927450"><i class="la la-phone"></i>+91-70107927450</a></li>
+<li><a href="javascript:void(0);"><i class="la la-clock"></i>Mon to Fri - 9:30am - 6:30pm</a></li>
+<li><a href="mailto:support@stackly.com"><i class="las la-envelope-open"></i>support@stackly.com</a></li>
+</ul>
+</div>
+<div class="topbar-right">
+<ul>
+<li><a href="404.html">History</a></li>
+<li><a href="404.html">News</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sticky-header navbar-expand-lg">
+<div class="menu-bar clearfix">
+<div class="container clearfix">
+<!-- begin::Header Logo Top -->
+<div class="menu-logo">
+<a href="index.html"><img alt="" src="assets/images/logo.webp"/></a>
+</div>
+<!-- end::Header Logo Top -->
+<!-- begin::Mobile Nav Button -->
+<button id="stacklyMobileToggle" class="stackly-mobile-toggle" type="button"
+        aria-label="Open navigation menu" aria-controls="menuDropdown" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+<!-- end::Mobile Nav Button -->
+<!-- begin::Author Nav -->
+<div class="secondary-menu">
+<div class="secondary-inner">
+<ul>
+<li class="d-none d-sm-block">
+<a class="btn btn-primary radius-xl btn-slide-up-text" href="login.html">
+<span class="data-text" data-text="Login / Register">Login / Register</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- end::Author Nav -->
+<!-- begin::Navigation Menu -->
+<div class="menu-links justify-content-end" data-lenis-prevent="" id="menuDropdown">
+<div class="menu-logo">
+<a href="index.html"><img alt="" src="assets/images/logo.webp"/></a>
+</div>
+<ul class="nav navbar-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li class="active"><a href="faq.html" aria-current="page">FAQ</a></li><li><a href="projects.html">Projects</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="blog.html">Blog</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact Us</a></li></ul>
+<div class="stackly-mobile-auth-actions"><a href="login.html">Login / Register</a></div>
+</div>
+<!-- end::Navigation Menu -->
+</div>
+</div>
+</div>
+</header>
+<!-- end::Header -->
+<main class="page-content bg-light">
+<!-- begin::Page Heading -->
+<div class="page-banner" style="background-image:url(assets/images/banner/banner1.webp);">
+<div class="container">
+<div class="page-banner-entry">
+<h1>FAQ</h1>
+<div class="breadcrumb-row">
+<ul class="list-inline">
+<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+<li>FAQ</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- end::Page Heading -->
+<div class="content-block" id="content-area">
+<!-- begin::Find An Answer -->
+<div class="section-area section-sp1">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-md-7 m-b30">
+<div class="heading-bx">
+<span class="title-ext m-b0">FIND AN ANSWER</span>
+<h3 class="title-head m-b0">How to Use Frequently Asked Questions?</h3>
+<div class="ld-separator sepimg"></div>
+<p class="head-px2 me-sm-5">Get answers to your skincare questions with a free consultation tailored to your unique skin needs.</p>
+</div>
+<div class="accordion ld-accordion" id="themeAccordion">
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">How do I determine my skin type?</button>
+</h2>
+<div class="accordion-collapse collapse show" data-bs-parent="#themeAccordion" id="collapseOne">
+<div class="accordion-body">
+											Observe your skin’s behavior: oily, dry, combination, normal, or sensitive. A professional consultation can help.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">What is the proper skincare routine?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseTwo">
+<div class="accordion-body">
+											Cleanse, tone, moisturize, and apply sunscreen in the morning; cleanse, treat, and moisturize at night.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">How often should I exfoliate?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseThree">
+<div class="accordion-body">
+											1-2 times a week for most skin types; sensitive skin may require less frequent exfoliation.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseFour" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseFour" data-bs-toggle="collapse" type="button">What is the best way to treat acne?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseFour">
+<div class="accordion-body">
+											Use products with salicylic acid or benzoyl peroxide, and avoid picking at pimples. Professional treatments like facials or chemical peels can help.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseFive" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseFive" data-bs-toggle="collapse" type="button">Do I need sunscreen indoors?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseFive">
+<div class="accordion-body">
+											Yes, UV rays can penetrate windows, so daily sunscreen is essential even indoors.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseSiX" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseSiX" data-bs-toggle="collapse" type="button">What’s the difference between dry and dehydrated skin?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseSiX">
+<div class="accordion-body">
+											Dry skin lacks oil, while dehydrated skin lacks water. Use hydrating products for both concerns.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseSeven" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseSeven" data-bs-toggle="collapse" type="button">Can I use the same products year-round?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseSeven">
+<div class="accordion-body">
+											Skin needs can change with seasons; opt for lighter products in summer and richer ones in winter.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseEight" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseEight" data-bs-toggle="collapse" type="button">When should I start using anti-aging products?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseEight">
+<div class="accordion-body">
+											Prevention is key; consider starting in your mid-20s with products containing antioxidants and sunscreen.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseNine" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseNine" data-bs-toggle="collapse" type="button">How do I reduce dark circles?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseNine">
+<div class="accordion-body">
+											Use eye creams with caffeine, vitamin C, or hyaluronic acid and ensure you get enough sleep.
+										</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button aria-controls="collapseTen" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTen" data-bs-toggle="collapse" type="button">What treatments can improve uneven skin tone?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#themeAccordion" id="collapseTen">
+<div class="accordion-body">
+											Chemical peels, laser treatments, and products with vitamin C or niacinamide can help brighten and even skin tone.
+										</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-5 m-b30">
+<aside class="sticky-top left-border-1">
+<div class="widget">
+<h6 class="widget-title">Our Inner Pages</h6>
+<ul class="service-list style-2">
+<li><a href="about.html">About Us <i class="las la-question-circle"></i></a></li>
+<li><a href="services.html">Our Services <i class="las la-cog"></i></a></li>
+<li><a href="awards.html">Awards<i class="las la-trophy"></i></a></li>
+<li><a href="job-career.html">Job &amp; Career<i class="las la-user-plus"></i></a></li>
+<li><a href="partners.html">Partners<i class="las la-handshake"></i></a></li>
+<li><a href="pricing.html">Pricing<i class="las la-hand-holding-usd"></i></a></li>
+<li><a href="appointment.html">Appointment<i class="las la-address-card"></i></a></li>
+<li><a href="case-study.html">Case Study<i class="las la-business-time"></i></a></li>
+<li><a href="client.html">Clients<i class="las la-user-circle"></i></a></li>
+<li class="active"><a href="faq.html">Faq<i class="las la-quote-left"></i></a></li>
+</ul>
+<a class="btn btn-primary radius-xl w-100 m-t20 btn-slide-up-text" href="appointment.html">
+<span class="data-text text-white" data-text="Book an Appointment">Book an Appointment</span>
+</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+<!-- end::Find An Answer -->
+<!-- begin::Our Partners & Clients -->
+<div class="section-area section-sp2 bg-gray">
+<div class="container wow fadeIn" data-wow-delay="0.8s">
+<div class="heading-bx text-center">
+<span class="title-ext m-b0">Our Partner</span>
+<h2 class="title-head m-b0">Partners &amp; Clients</h2>
+<div class="ld-separator sepimg"></div>
+</div>
+<div class="swiper client-logo-swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo1.webp"/></a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo2.webp"/></a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo3.webp"/></a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo4.webp"/></a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo5.webp"/></a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo6.webp"/></a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="client-logo">
+<a href="javascript:void(0);"><img alt="" src="assets/images/partner/logo5.webp"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end::Our Partners & Clients -->
+</div>
+</main>
+<!-- begin::Footer -->
+<footer class="footer-style1 footer-dark">
+<div class="footer-top">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-5 col-12 git-right">
+<a class="footer-brand-logo" href="index.html" aria-label="Stackly home"><img src="assets/images/logo.webp" alt="Stackly Beauty &amp; Skincare Clinic"/></a>
+<div class="footer-brand-intro">
+<p>At Stackly Beauty &amp; Skincare Clinic, we bring out your natural glow with personalized skincare, expert beauty treatments, and caring professionals.</p>
+<div class="footer-social-links" aria-label="Social media links">
+<a href="404.html" aria-label="Gmail" title="Gmail"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+<a href="404.html" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+<a href="404.html" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+<a href="404.html" aria-label="Facebook" title="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+<a href="404.html" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+</div>
+</div>
+
+<div class="getintouch" aria-label="Get In Touch">Get In <br/>T<span>o</span>uch</div>
+<div class="widget widget_info">
+<h5 class="footer-title mb-1">Subscribe to our newsletter!</h5>
+<p class="mb-4">Weekly Breaking News Analysis And Cutting Edge <br/>Advices On Job Searching.</p>
+<form action="404.html" class="subscribe-form1 m-b20" method="get">
+<div class="ajax-message"></div>
+<div class="position-relative">
+<input class="form-control" name="email" placeholder="Enter email address" required="" type="email"/>
+<button class="btn-link" name="submit" type="submit" value="Submit">
+<i class="icon-move-right"></i>
+</button>
+</div>
+</form>
+</div>
+</div>
+<div class="col-12 col-lg-3 col-sm-6 offset-lg-1">
+<div class="widget footer_widget">
+<h5 class="footer-title">Services</h5>
+<ul>
+<li><a href="404.html"><span>Custom facials</span></a></li>
+<li><a href="404.html"><span>Body treatments</span></a></li>
+<li><a href="404.html"><span>Makeup application</span></a></li>
+<li><a href="404.html"><span>Deep cleansing</span></a></li>
+</ul>
+</div>
+<div class="widget footer_widget">
+<h5 class="footer-title">Quicklinks</h5>
+<ul>
+<li><a href="index.html"><span>Home</span></a></li>
+<li><a href="about.html"><span>About</span></a></li>
+<li><a href="projects.html"><span>Projects</span></a></li>
+<li><a href="blog.html"><span>Blog</span></a></li>
+<li><a href="contact.html"><span>Contact Us</span></a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-3 col-sm-6">
+<div class="widget footer_widget">
+<h5 class="footer-title">Get Help</h5>
+<ul>
+<li><a href="404.html"><span>Faq’s</span></a></li>
+<li><a href="404.html"><span>Pricing</span></a></li>
+<li><a href="404.html"><span>Appointment</span></a></li>
+<li><a href="404.html"><span>Job &amp; Career</span></a></li>
+</ul>
+</div>
+<div class="widget footer_widget contact-info">
+<h5 class="footer-title">Contact us</h5>
+<ul class="">
+<li><i class="icon-map-pin"></i> MMR Complex, Salem, TN, India</li>
+<li><i class="icon-phone"></i>
+<span>
+<a href="tel:+9170107927450">+91-70107927450</a>
+</span>
+</li>
+<li><i class="icon-mail"></i> <a class="text-decoration-underline link-offset-1" href="mailto:support@stackly.com">support@stackly.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
+<p class="m-b0">© 2026 All Rights Reserved by Stackly</p>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 text-center text-md-end">
+<ul class="link-inline">
+<li><a href="404.html">Terms &amp; Conditions</a></li>
+<li><a href="404.html">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- end::Footer -->
+<!-- begin::Back To Top -->
+<button class="back-to-top fa fa-chevron-up"></button>
+<!-- end::Back To Top -->
+</div>
+<!-- begin::Javascript Files -->
+<script src="assets/libs/global/global.min.js"></script>
+<script src="assets/js/gsap.js"></script>
+<script src="assets/js/slider.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/contact.js"></script>
+<!-- end::Javascript Files -->
+<script id="stackly-content-click-redirect">
+(function () {
+  'use strict';
+  function isContentArea(el) {
+    if (!el || !el.closest) return false;
+    var region = el.closest('main, .main-content, #main-content, .page-content, .content-area');
+    if (!region) return false;
+    if (el.closest('header, footer, .site-header, .site-footer, #header, #footer')) return false;
+    return true;
+  }
+  function goTo404(event) {
+    var target = event.target && event.target.closest ? event.target.closest('a, button, [role="button"], input[type="button"], input[type="submit"], input[type="image"], summary, [onclick], .clickable') : null;
+    if (!target || !isContentArea(target)) return;
+    // Keep browser-native editing and selection controls usable; their submission is handled below.
+    if (target.matches('input:not([type="button"]):not([type="submit"]):not([type="image"]), textarea, select, option, label')) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+    window.location.href = new URL('404.html', window.location.href).href;
+  }
+  document.addEventListener('click', goTo404, true);
+  document.addEventListener('submit', function (event) {
+    if (!isContentArea(event.target)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+    window.location.href = new URL('404.html', window.location.href).href;
+  }, true);
+})();
+</script>
+<!-- AOS: varied scroll animations across page content -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script id="stackly-aos-setup">
+(function () {
+  'use strict';
+  var animationTypes = [
+    'fade-up', 'fade-down', 'fade-left', 'fade-right',
+    'fade-up-right', 'fade-up-left', 'fade-down-right', 'fade-down-left',
+    'flip-left', 'flip-right', 'flip-up', 'flip-down',
+    'slide-up', 'slide-down', 'slide-left', 'slide-right',
+    'zoom-in', 'zoom-in-up', 'zoom-in-down', 'zoom-in-left', 'zoom-in-right',
+    'zoom-out', 'zoom-out-up', 'zoom-out-down', 'zoom-out-left', 'zoom-out-right',
+    'fade'
+  ];
+  function setupAOS() {
+    if (!window.AOS) return;
+    var root = document.querySelector('main, .main-content, #main-content, .page-content, .content-area') || document.querySelector('.page-wraper') || document.body;
+    var selector = [
+      '.banner-content', '.dz-bnr-inr', '.section-head', '.section-title',
+      '.dz-title', '.title-head', '.content-bx', '.service-box', '.service-item',
+      '.pricingtable-wrapper', '.pricingtable-inner', '.blog-card', '.dz-card',
+      '.portfolio-box', '.project-box', '.team-box', '.testimonial-box',
+      '.icon-bx-wraper', '.contact-bx', '.faq-item', '.accordion-item',
+      '.about-media', '.dz-media', '.media', '.counter-bx', '.feature-box',
+      '.form-wrap', '.contact-form', '.dz-form', '.error-page', '.error-content',
+      '.row > [class*="col-"]', 'section h1', 'section h2', 'section h3',
+      'section > .container > h1', 'section > .container > h2', 'section > .container > h3',
+      'main h1', 'main h2', 'main h3', 'main img', 'main blockquote'
+    ].join(',');
+    var targets = Array.prototype.slice.call(root.querySelectorAll(selector));
+    // Also cover meaningful content blocks on template pages that use different class names.
+    Array.prototype.slice.call(root.querySelectorAll('article, .container > .row, .container > p, .container > img')).forEach(function (el) {
+      if (targets.indexOf(el) === -1) targets.push(el);
+    });
+    var index = 0;
+    targets.forEach(function (el) {
+      if (!el || el.closest('header, footer, nav, .header, .footer')) return;
+      if (el.hasAttribute('data-aos')) return;
+      if (el.matches('input, textarea, select, option, label, script, style')) return;
+      // Keep animations purposeful: avoid applying effects to tiny inline elements.
+      if (el.children.length === 0 && !el.matches('h1,h2,h3,p,img,blockquote')) return;
+      el.setAttribute('data-aos', animationTypes[index % animationTypes.length]);
+      el.setAttribute('data-aos-duration', (650 + (index % 4) * 100).toString());
+      el.setAttribute('data-aos-easing', 'ease-out-cubic');
+      el.setAttribute('data-aos-once', 'true');
+      if (index % 3 === 0) el.setAttribute('data-aos-delay', '80');
+      index++;
+    });
+    // A gentle stagger on repeated cards, without affecting the header or footer.
+    window.AOS.init({ once: true, duration: 800, easing: 'ease-out-cubic', offset: 70, mirror: false, anchorPlacement: 'top-bottom' });
+    window.addEventListener('load', function () { window.AOS.refreshHard(); }, { once: true });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setupAOS);
+  else setupAOS();
+})();
+</script>
+<script id="stackly-mobile-menu-controller">
+(function () {
+  function initStacklyMobileMenu() {
+    var header = document.querySelector("header.header.rs-nav");
+    if (!header) return;
+    var button = header.querySelector("#stacklyMobileToggle");
+    var panel = header.querySelector("#menuDropdown");
+    if (!button || !panel) return;
+
+    function setMenu(open) {
+      panel.classList.toggle("stackly-menu-visible", open);
+      button.classList.toggle("is-open", open);
+      button.setAttribute("aria-expanded", open ? "true" : "false");
+      button.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
+      document.documentElement.classList.toggle("stackly-mobile-menu-open", open);
+      document.body.classList.toggle("stackly-mobile-menu-open", open);
+    }
+
+    button.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      setMenu(button.getAttribute("aria-expanded") !== "true");
+    });
+
+    panel.addEventListener("click", function (event) {
+      if (event.target.closest("a")) setMenu(false);
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") setMenu(false);
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth >= 992) setMenu(false);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initStacklyMobileMenu);
+  } else {
+    initStacklyMobileMenu();
+  }
+})();
+</script>
+<script id="stackly-exact-auth-preloader-controller">
+(function () {
+  var preloader = document.getElementById("preloader");
+  if (!preloader) return;
+
+  var progressBar = preloader.querySelector(".finance-progress span");
+  var percentLabel = preloader.querySelector(".finance-percent");
+  var progressValue = 0;
+  var closed = false;
+  var startedAt = performance.now();
+
+  document.body.classList.add("loading");
+
+  var progressTimer = window.setInterval(function () {
+    progressValue += progressValue < 72 ? 3 : progressValue < 93 ? 1.5 : 0.5;
+    progressValue = Math.min(99, progressValue);
+    if (progressBar) progressBar.style.width = progressValue + "%";
+    if (percentLabel) percentLabel.textContent = Math.floor(progressValue) + "%";
+  }, 55);
+
+  function closePreloader() {
+    if (closed) return;
+    closed = true;
+    window.clearInterval(progressTimer);
+    if (progressBar) progressBar.style.width = "100%";
+    if (percentLabel) percentLabel.textContent = "100%";
+    preloader.style.opacity = "0";
+    preloader.style.visibility = "hidden";
+    preloader.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("loading");
+    document.body.classList.add("page-ready");
+    window.setTimeout(function () {
+      if (preloader.parentNode) preloader.parentNode.removeChild(preloader);
+    }, 800);
+  }
+
+  function releaseAfterMinimumTime() {
+    var elapsed = performance.now() - startedAt;
+    window.setTimeout(closePreloader, Math.max(0, 1850 - elapsed));
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", releaseAfterMinimumTime, { once: true });
+  } else {
+    releaseAfterMinimumTime();
+  }
+
+  window.setTimeout(closePreloader, 3200);
+})();
+</script>
+</body>
+</html>
