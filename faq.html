@@ -818,6 +818,9 @@ body.page-ready > .page-wraper{
   function goTo404(event) {
     var target = event.target && event.target.closest ? event.target.closest('a, button, [role="button"], input[type="button"], input[type="submit"], input[type="image"], summary, [onclick], .clickable') : null;
     if (!target || !isContentArea(target)) return;
+    // FAQ accordion controls are functional UI, not navigation links.
+    // Let Bootstrap's collapse handler process these clicks instead of redirecting to 404.html.
+    if (target.closest('#themeAccordion, #themeAccordion .accordion-item, .ld-accordion')) return;
     // Keep browser-native editing and selection controls usable; their submission is handled below.
     if (target.matches('input:not([type="button"]):not([type="submit"]):not([type="image"]), textarea, select, option, label')) return;
     event.preventDefault();
