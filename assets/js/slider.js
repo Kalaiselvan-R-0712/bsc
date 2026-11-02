@@ -393,13 +393,10 @@ document.addEventListener("DOMContentLoaded", function() {
 	var portfolioSwiper3 = function() {
 		if(!checkSelectorExistence('.portfolio-swiper3')){return;}
 		var swiper = new Swiper(".portfolio-swiper3", {
-			loop: true,
+			loop: false,
 			spaceBetween: 4,
 			slidesPerView: 1,
 			speed: 500,
-			autoplay: {
-				delay: 3000,
-			},
 			breakpoints:{
 				591: {
 					slidesPerView: 2,
