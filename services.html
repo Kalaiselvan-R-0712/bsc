@@ -997,6 +997,9 @@ body.page-ready > .page-wraper{
   function goTo404(event) {
     var target = event.target && event.target.closest ? event.target.closest('a, button, [role="button"], input[type="button"], input[type="submit"], input[type="image"], summary, [onclick], .clickable') : null;
     if (!target || !isContentArea(target)) return;
+    // Allow Bootstrap accordion and other native interactive components to handle their own clicks.
+    // These controls must not be intercepted by the site's generic 404 redirect.
+    if (target.closest('.accordion, .accordion-button, [data-bs-toggle="collapse"], [data-bs-toggle="tab"], [data-bs-toggle="pill"]')) return;
     // Keep browser-native editing and selection controls usable; their submission is handled below.
     if (target.matches('input:not([type="button"]):not([type="submit"]):not([type="image"]), textarea, select, option, label')) return;
     event.preventDefault();
